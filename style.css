@@ -54,7 +54,7 @@ input{
     text-indent: 5px;
 }
 
-input: :placeholder{
+input :placeholder{
     color: #3c3c43;
 }
 
@@ -129,6 +129,10 @@ td{
 .botao-tabela{
     background-color: #FF453A;
     color: white;
+}
+
+.linha-mensagem td{
+    text-align: center;
 }
 
 .botao-tabela:hover{

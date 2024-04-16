@@ -14,20 +14,22 @@
         <h1>Calculadora de informações</h1>
         <section>
             <h1>Cadastro de informações</h1>
-            <form method="post" onsubmit="CalcularImc(event)">
+            <form method="post" onsubmit="CalcularValores(event)">
                 <div class="campo-form">
-                    <label for="nome">Nome:</label>
+                <label for="nome">Nome:</label>
                 <input type="text" name="campo-nome" id="name" placeholder="Insira seu nome completo">
             </div>
             
             <div class="campo-form">
                 <label for="altura">Altura:</label>
-                <input type="number" name="campo-altura" id="height" placeholder="Insira sua altura. Ex:1.85">
+                <input type="number" name="campo-altura" id="height" step="0.01" 
+                placeholder="Insira sua altura. Ex:1.85">
             </div>
             
             <div class="campo-form">
                 <label for="peso">Peso:</label>
-                <input type="number" name="campo-peso" id="weight" placeholder="Insira seu peso em Kg. Ex: 80">
+                <input type="number" name="campo-peso" id="weight" step="0.01" 
+                placeholder="Insira seu peso em Kg. Ex: 80">
             </div>
             
             <div class="conjuto-botoes">
@@ -65,4 +67,3 @@
     </main>
 </body>
 </html>
-hhh
